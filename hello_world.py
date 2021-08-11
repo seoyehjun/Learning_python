@@ -196,3 +196,68 @@
 #data = [2,4,3,1,5,10,9]
 #sorted_data = sorted(data)
 #print(sorted_data)
+
+#my_variable = ()
+#print(my_variable, type(my_variable))
+
+#movie_rank = ('닥터 스트레인지', '스플릿', '럭키')
+#print(movie_rank)
+
+#only_one = (1,)
+#print(only_one, type(only_one))
+
+#t = (1,2,3) #tuple은 원소(element)의 값을 변경할 수 없습니다.
+#t[0]='a'
+
+#t = 1,2,3,4
+#print(t)
+
+#interest = ['삼성전자','LG전자', 'SK Hynix']
+#interest_tuple = tuple(interest)
+#print(interest_tuple, type(interest_tuple))
+
+#temp = ('apple','banana','cake')
+#a,b,c = temp
+#print(a,b,c)
+
+#list= range(2,100,2)
+#tuple_even = tuple(list)
+#print(tuple_even)
+
+#scores = [8.8, 8.9, 8.7, 9.2, 9.3, 9.7, 9.9, 9.5, 7.8, 9.4]
+#*valid_score, _, _ = scores
+#print(valid_score)
+
+#scores = [8.8, 8.9, 8.7, 9.2, 9.3, 9.7, 9.9, 9.5, 7.8, 9.4]
+#_,*essen,_ = scores
+#print(essen, type(essen))
+
+#temp = {}
+#print(type(temp))
+
+#temp = {'메로나': 1000, '폴라포':1200, '빵빠레':1800}
+#print(temp, type(temp))
+
+#ice = {'메로나' : 1000, '폴로포' : 1200, '빵빠레': 1800, '죠스바': 1200, '월드콘': 1500}
+#print("메로나 가격:",ice['메로나'])
+
+#ice = {'메로나' : 1000, '폴로포' : 1200, '빵빠레': 1800, '죠스바': 1200, '월드콘': 1500}
+#ice['메로나']= 1300#리스트 요소 바꾸듯 딕셔너리 다루자
+#print('메로나 가격:',ice['메로나'])
+
+#inventory = {'메로나': [300,20], '비비빅' : [400,3], '죠스바': [250, 100]} 
+#inventory['월드콘'] =[500, 7]
+#icecream_name = list(inventory.values())
+#print(icecream_name, type(icecream_name))
+
+#icecream = {'탱크보이' : 1200, '폴라포' : 1200, '빵빠레' : 1800, '월드콘' : 1500, '메로나' : 1000}
+#total_value = sum(icecream.values())
+#print(total_value)
+
+#icecream = {'탱크보이' : 1200, '폴라포' : 1200, '빵빠레' : 1800, '월드콘' : 1500, '메로나': 1000}
+#new_product = {'팥빙수' : 2700, '아맛나' :1000}
+#icecream.update(new_product)
+#print(icecream)
+
+keys = ('apple', 'pear', 'peach')
+vals = (300,250, 400)
