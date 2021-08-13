@@ -259,5 +259,157 @@
 #icecream.update(new_product)
 #print(icecream)
 
-keys = ('apple', 'pear', 'peach')
-vals = (300,250, 400)
+#keys = ('apple', 'pear', 'peach')
+#vals = (300,250, 400)
+#dic = dict(zip(keys,vals))
+#print(dic, type(dic))
+
+#date = ['09/05', '09/06', '09/07', '09/08', '09/09']
+#close_price = [10500, 10300, 10100, 10800, 11000]
+#close_table= dict(zip(date, close_price))
+#print(close_table, type(close_table))
+
+#if 3< 4: 
+#    print('4is bigger')
+
+#if 4< 3:
+#    print('3is bigger')
+#else: 
+#    print('4is bigger')
+
+#if False : 
+#    print('1')
+#    print('2')
+#else :
+#    print('3')
+#print('4')
+
+#if False:
+#    if False:
+#        print('1')
+#        print('2')
+#    else: 
+#        print('3')
+#else: 
+
+
+
+#    print('4')
+#print('5')
+
+##--------------111번문제
+#user = input()
+#print(user*2)
+
+#user = input()
+#print(int(user)+10)
+
+#user = input()
+#if int(user)%2==0:
+#    print('짝수 입니다')
+#else:
+#    print('홀수 입니다')
+
+#user = input()
+#result = int(user)+10
+#if result<=255:
+#    print(result)
+#else:
+#    print(255)
+
+#user = input()
+#result = int(user)-10
+#if result<0:
+#    print(0)
+#elif result>255:
+#    print(255)
+#else:
+#    print(result)
+
+#index=True
+#while index:
+#    user = input()
+#    if len(user) !=5 or user[2] !=':':
+#        print('형식이 잘못됨')
+#    else:
+#        index=False  
+
+#minute = user[-2:]
+#if minute =='00':
+#    print('정각입니다')
+#else:
+#    print('정각이 아닙니다')
+
+#117
+#fruit = ['사과', '포도', '홍시']
+#user = input()
+#if user in fruit:
+#    print('정답')
+#else:
+#    print('오답')  
+
+#warn_investment_list = ["Microsoft", "Google", "Naver", "KaKao", "SAMSUNG", "LG"]
+#user = input()
+#if user in warn_investment_list:
+#    print('투자 경고 종목입니다')
+#else:
+#    print('투자 경고 종목이 아닙니다')
+
+#fruit = {'봄' : '딸기', '여름' : '토마토', '가을':'사과'}
+#user = input()
+#if user in fruit.values():
+#    print('존재하는 키')
+#else:  
+#    print('존재하지 않는 키')   
+#print(type(fruit.keys()))
+
+#user = input()
+#if user.islower():
+#    print(user.upper())
+#else:
+#    print(user.lower())
+
+#user_input = input()
+#user = int(user_input)
+#if 81<=user<=100:
+#    print('A')
+#elif 61<=user<=80:
+#    print('B')
+#elif 41<=user<=60:
+#    print('C')
+#elif 21<=user<=40:
+#    print('D')
+#elif 0<=user<=20:
+#    print('E')
+
+#user = input()
+#figure, what_currency= float(user.split(' ')[0]), user.split(' ')[1]
+#print(type(figure))
+#if what_currency=='달러':
+#    print('%0.2f 달러'%(figure*1167))
+#elif what_currency=='엔':
+#    print(figure*1.096)
+#elif what_currency== '유로':
+#    print(figure*1268)
+#elif what_currency == '위안':
+#    print(figure*171)
+
+#i =0 
+#user = []
+#while i<3:
+#    print("input number %d:" %(i+1),end=' ')
+#    user.append(input())
+#    print('\n')
+#    i= i+1
+#print(max(user))
+
+#PN = input()
+#identifier= PN[:3]
+#if identifier == '011':
+#    print("SKT")
+#elif identifier == '016':
+#    print("KT")
+#elif identifier == '019':
+#    print("LGU")
+#else:
+#    print("알 수 없음")
